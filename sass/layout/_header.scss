@@ -13,11 +13,11 @@
 
   @include respond(phone) {
     clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
-    margin-bottom: 6rem;
+    margin-bottom: 8rem;
   }
   @include respond(tab-port) {
     clip-path: polygon(0 0, 100% 0, 100% 85vh, 0 100%);
-    margin-bottom: 6rem;
+    margin-bottom: 8rem;
   }
 
   &__logo-box {
